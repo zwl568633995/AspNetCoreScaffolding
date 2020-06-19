@@ -1,0 +1,12 @@
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.AspNetCore\bin\Debug\netstandard2.0\Kay.Framework.AspNetCore.deps.json
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.AspNetCore\bin\Debug\netstandard2.0\Kay.Framework.AspNetCore.dll
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.AspNetCore\obj\Debug\netstandard2.0\Kay.Framework.AspNetCore.csprojAssemblyReference.cache
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.AspNetCore\obj\Debug\netstandard2.0\Kay.Framework.AspNetCore.csproj.CoreCompileInputs.cache
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.AspNetCore\obj\Debug\netstandard2.0\Kay.Framework.AspNetCore.AssemblyInfoInputs.cache
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.AspNetCore\obj\Debug\netstandard2.0\Kay.Framework.AspNetCore.AssemblyInfo.cs
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.AspNetCore\bin\Debug\netstandard2.0\Kay.Framework.AspNetCore.pdb
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.AspNetCore\bin\Debug\netstandard2.0\Kay.Framework.dll
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.AspNetCore\bin\Debug\netstandard2.0\Kay.Framework.pdb
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.AspNetCore\obj\Debug\netstandard2.0\Kay.Framework.AspNetCore.csproj.CopyComplete
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.AspNetCore\obj\Debug\netstandard2.0\Kay.Framework.AspNetCore.dll
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.AspNetCore\obj\Debug\netstandard2.0\Kay.Framework.AspNetCore.pdb

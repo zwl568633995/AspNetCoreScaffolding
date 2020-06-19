@@ -1,0 +1,9 @@
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.Oracle\bin\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.Oracle.deps.json
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.Oracle\bin\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.Oracle.dll
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.Oracle\obj\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.Oracle.csproj.CoreCompileInputs.cache
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.Oracle\obj\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.Oracle.AssemblyInfoInputs.cache
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.Oracle\obj\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.Oracle.AssemblyInfo.cs
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.Oracle\bin\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.Oracle.pdb
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.Oracle\obj\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.Oracle.csprojAssemblyReference.cache
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.Oracle\obj\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.Oracle.dll
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.Oracle\obj\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.Oracle.pdb

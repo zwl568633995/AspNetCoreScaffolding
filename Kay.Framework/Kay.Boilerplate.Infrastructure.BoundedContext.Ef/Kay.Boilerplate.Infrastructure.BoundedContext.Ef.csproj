@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kay.Boilerplate.Domain\Kay.Boilerplate.Domain.csproj" />
+    <ProjectReference Include="..\Kay.Framework.Domain.EntityFrameworkCore\Kay.Framework.Domain.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\Kay.Framework.Domain\Kay.Framework.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

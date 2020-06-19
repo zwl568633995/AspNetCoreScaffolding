@@ -1,0 +1,12 @@
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.ObjectMapping.TinyMapper\bin\Debug\netstandard2.0\Kay.Framework.ObjectMapping.Abstractions.dll
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.ObjectMapping.TinyMapper\obj\Debug\netstandard2.0\Kay.Framework.ObjectMapping.TinyMapper.csproj.CoreCompileInputs.cache
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.ObjectMapping.TinyMapper\obj\Debug\netstandard2.0\Kay.Framework.ObjectMapping.TinyMapper.AssemblyInfoInputs.cache
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.ObjectMapping.TinyMapper\obj\Debug\netstandard2.0\Kay.Framework.ObjectMapping.TinyMapper.AssemblyInfo.cs
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.ObjectMapping.TinyMapper\obj\Debug\netstandard2.0\Kay.Framework.ObjectMapping.TinyMapper.csprojAssemblyReference.cache
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.ObjectMapping.TinyMapper\bin\Debug\netstandard2.0\Kay.Framework.ObjectMapping.TinyMapper.deps.json
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.ObjectMapping.TinyMapper\bin\Debug\netstandard2.0\Kay.Framework.ObjectMapping.TinyMapper.dll
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.ObjectMapping.TinyMapper\bin\Debug\netstandard2.0\Kay.Framework.ObjectMapping.TinyMapper.pdb
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.ObjectMapping.TinyMapper\bin\Debug\netstandard2.0\Kay.Framework.ObjectMapping.Abstractions.pdb
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.ObjectMapping.TinyMapper\obj\Debug\netstandard2.0\Kay.Framework.ObjectMapping.TinyMapper.csproj.CopyComplete
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.ObjectMapping.TinyMapper\obj\Debug\netstandard2.0\Kay.Framework.ObjectMapping.TinyMapper.dll
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.ObjectMapping.TinyMapper\obj\Debug\netstandard2.0\Kay.Framework.ObjectMapping.TinyMapper.pdb

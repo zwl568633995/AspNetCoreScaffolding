@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="NLog.Xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="NLog.Xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kay.Boilerplate.Infrastructure.BoundedContext.Ef\Kay.Boilerplate.Infrastructure.BoundedContext.Ef.csproj" />
+    <ProjectReference Include="..\Kay.Framework.Authorization\Kay.Framework.Authorization.csproj" />
+    <ProjectReference Include="..\Kay.Framework\Kay.Framework.csproj" />
+    <ProjectReference Include="..\NLog.Extensions.Configuration\NLog.Extensions.Configuration.csproj" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Compile Update="NLog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="NLogDetail.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="NLogMenuItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>

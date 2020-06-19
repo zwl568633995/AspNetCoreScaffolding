@@ -1,0 +1,9 @@
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework\bin\Debug\netstandard2.0\Kay.Framework.deps.json
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework\bin\Debug\netstandard2.0\Kay.Framework.dll
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework\obj\Debug\netstandard2.0\Kay.Framework.csproj.CoreCompileInputs.cache
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework\obj\Debug\netstandard2.0\Kay.Framework.AssemblyInfoInputs.cache
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework\obj\Debug\netstandard2.0\Kay.Framework.AssemblyInfo.cs
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework\bin\Debug\netstandard2.0\Kay.Framework.pdb
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework\obj\Debug\netstandard2.0\Kay.Framework.dll
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework\obj\Debug\netstandard2.0\Kay.Framework.pdb
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework\obj\Debug\netstandard2.0\Kay.Framework.csprojAssemblyReference.cache

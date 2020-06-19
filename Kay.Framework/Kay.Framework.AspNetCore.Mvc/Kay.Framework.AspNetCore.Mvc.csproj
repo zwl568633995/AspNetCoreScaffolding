@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="2020.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="3.1.4" />
+    <PackageReference Include="MiniProfiler.AspNetCore.Mvc" Version="4.1.0" />
+    <PackageReference Include="MiniProfiler.EntityFrameworkCore" Version="4.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="5.4.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.4.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.4.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUi" Version="5.4.1" />
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kay.Framework.Domain\Kay.Framework.Domain.csproj" />
+    <ProjectReference Include="..\Kay.Framework.EntityFrameworkCore.MySQL\Kay.Framework.EntityFrameworkCore.MySQL.csproj" />
+    <ProjectReference Include="..\Kay.Framework.EntityFrameworkCore.Oracle\Kay.Framework.EntityFrameworkCore.Oracle.csproj" />
+    <ProjectReference Include="..\Kay.Framework.EntityFrameworkCore.SqlServer\Kay.Framework.EntityFrameworkCore.SqlServer.csproj" />
+    <ProjectReference Include="..\Kay.Framework\Kay.Framework.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Swagger\" />
+  </ItemGroup>
+
+</Project>

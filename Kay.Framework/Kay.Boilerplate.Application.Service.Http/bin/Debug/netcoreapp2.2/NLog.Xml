@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<nlog
+	xmlns="http://www.nlog-project.org/schemas/NLog.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"    internalLogLevel="Warn"    internalLogFile="internal-nlog.txt">
+  <extensions>
+    <add assembly="NLog.Web.AspNetCore" />
+  </extensions>
+  <variable name="logDirectory" value="${basedir}/logs/${shortdate}" />
+  <targets async="true">
+    <target xsi:type="File"
+		name="nalong-log-file"
+		fileName="${logDirectory}/nlog-${level}/${shortdate}.json"
+		archiveAboveSize="10240000"
+		keepFileOpen="false">
+      <layout xsi:type="JsonLayout">
+        <attribute name="topic" layout="${gdc:item=topic}" escapeUnicode="false" />
+        <attribute name="level" layout="${uppercase:${level}}" />
+        <attribute name="traceidentifier" layout="${aspnet-traceidentifier}" />
+        <attribute name="date" layout="${longdate}" />
+        <attribute name="logger" layout="${logger}" />
+        <attribute name="callsite" layout="${callsite}" />
+        <attribute name="linenumber" layout="${callsite-linenumber}" />
+        <attribute name="request-host" layout="${aspnet-request-host}" />
+        <attribute name="request-ip" layout="${aspnet-request-ip}" />
+        <attribute name="request-url" layout="${aspnet-request-url}" />
+        <attribute name="request-querystring" layout="${aspnet-request-querystring}" />
+        <attribute name="request-method" layout="${aspnet-request-method}" />
+        <attribute name="request-authorization" layout="${aspnet-request:header=Authorization}" />
+        <attribute name="request-contenttype" layout="${aspnet-request-contenttype}" />
+        <attribute name="request-cookie" layout="${aspnet-request-cookie}" />
+        <attribute name="posted-body" layout="${aspnet-request-posted-body}" />
+        <attribute name="request-referrer" layout="${aspnet-request-referrer}" />
+        <attribute name="request-useragent" layout="${aspnet-request-useragent}" />
+        <attribute name="mvc-controller" layout="${aspnet-mvc-controller}" />
+        <attribute name="mvc-action" layout="${aspnet-mvc-action}" />
+        <attribute name="iis-site-name" layout="${iis-site-name}" />
+        <attribute name="nl-items-middleware" layout="${aspnet-item:variable=nl-items-middleware}" />
+        <attribute name="nl-items-elapsed" layout="${aspnet-item:variable=nl-items-elapsed}" />
+        <attribute name="nl-items-statusCode" layout="${aspnet-item:variable=nl-items-statusCode}" />
+        <attribute name="nl-items-errorCode" layout="${aspnet-item:variable=nl-items-errorCode}" />
+        <attribute name="message" layout="${message}" escapeUnicode="false" />
+        <attribute name="exception" layout="${exception:format=toString,Data:maxInnerExceptionLevel=5}" escapeUnicode="false" />
+      </layout>
+    </target>
+    <target xsi:type="Null" name="blackhole" />
+  </targets>
+  <!--日志级别 Trace -》Debug-》 Info -》Warn-》 Error-》 Fatal-->
+  <!--日志规则-->
+  <rules>
+    <!--自定义日志，排除Microsoft日志-->
+    <logger name="Microsoft.*" minlevel="Trace" writeTo="blackhole" final="true" />
+    <logger name="*" minlevel="Debug" writeTo="nalong-log-file" />
+  </rules>
+</nlog>

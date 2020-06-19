@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kay.Framework.Domain\Kay.Framework.Domain.csproj" />
+    <ProjectReference Include="..\Kay.Framework.ObjectMapping.Abstractions\Kay.Framework.ObjectMapping.Abstractions.csproj" />
+    <ProjectReference Include="..\Kay.Framework\Kay.Framework.csproj" />
+  </ItemGroup>
+
+</Project>

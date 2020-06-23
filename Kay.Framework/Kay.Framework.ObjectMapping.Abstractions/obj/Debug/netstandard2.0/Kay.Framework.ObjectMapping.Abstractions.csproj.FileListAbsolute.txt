@@ -1,6 +1,5 @@
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.ObjectMapping.Abstractions\bin\Debug\netstandard2.0\Kay.Framework.ObjectMapping.Abstractions.deps.json
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.ObjectMapping.Abstractions\bin\Debug\netstandard2.0\Kay.Framework.ObjectMapping.Abstractions.dll
-C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.ObjectMapping.Abstractions\obj\Debug\netstandard2.0\Kay.Framework.ObjectMapping.Abstractions.csprojAssemblyReference.cache
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.ObjectMapping.Abstractions\obj\Debug\netstandard2.0\Kay.Framework.ObjectMapping.Abstractions.csproj.CoreCompileInputs.cache
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.ObjectMapping.Abstractions\obj\Debug\netstandard2.0\Kay.Framework.ObjectMapping.Abstractions.AssemblyInfoInputs.cache
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.ObjectMapping.Abstractions\obj\Debug\netstandard2.0\Kay.Framework.ObjectMapping.Abstractions.AssemblyInfo.cs

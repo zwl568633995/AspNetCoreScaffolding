@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="JetBrains.Annotations" Version="2020.1.0" />
+    <PackageReference Include="JWT" Version="5.2.3" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="3.1.4" />
     <PackageReference Include="MiniProfiler.AspNetCore.Mvc" Version="4.1.0" />
@@ -22,6 +23,7 @@
     <ProjectReference Include="..\Kay.Framework.EntityFrameworkCore.MySQL\Kay.Framework.EntityFrameworkCore.MySQL.csproj" />
     <ProjectReference Include="..\Kay.Framework.EntityFrameworkCore.Oracle\Kay.Framework.EntityFrameworkCore.Oracle.csproj" />
     <ProjectReference Include="..\Kay.Framework.EntityFrameworkCore.SqlServer\Kay.Framework.EntityFrameworkCore.SqlServer.csproj" />
+    <ProjectReference Include="..\Kay.Framework.Redis\Kay.Framework.Redis.csproj" />
     <ProjectReference Include="..\Kay.Framework\Kay.Framework.csproj" />
   </ItemGroup>
 

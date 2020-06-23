@@ -8,7 +8,7 @@ namespace Kay.Framework.AspNetCore.Mvc.Attributes
     /// 授权标签
     /// </summary>
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = true)]
-    public class AuthorizeAttribute : Attribute
+    public class NeedAuthorizeAttribute : Attribute
     {
 
     }

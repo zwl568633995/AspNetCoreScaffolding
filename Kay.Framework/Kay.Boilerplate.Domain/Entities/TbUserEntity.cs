@@ -6,11 +6,13 @@ using System.Text;
 
 namespace Kay.Boilerplate.Domain.Entities
 {
-    [Table("TbUser1")]
+    [Table("TbAccount")]
     public class TbUserEntity: BizEntity
     {
-        public string Name { get; set; }
+        public string UserName { get; set; }
 
         public string Password { get; set; }
+
+        public int UserType { get; set; }
     }
 }

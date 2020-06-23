@@ -5,28 +5,32 @@
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="NLog.Xml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="NLog.Xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Boilerplate.Application.Service.Http\Kay.Boilerplate.Application.Service.Http.xml</DocumentationFile>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
 
 
   <ItemGroup>
+    <PackageReference Include="JWT" Version="7.2.1" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.8.4" />
   </ItemGroup>
 
 
   <ItemGroup>
+    <ProjectReference Include="..\Kay.Boilerplate.ApplicationService\Kay.Boilerplate.ApplicationService.csproj" />
     <ProjectReference Include="..\Kay.Boilerplate.Infrastructure.BoundedContext.Ef\Kay.Boilerplate.Infrastructure.BoundedContext.Ef.csproj" />
+    <ProjectReference Include="..\Kay.Framework.AspNetCore.Mvc\Kay.Framework.AspNetCore.Mvc.csproj" />
+    <ProjectReference Include="..\Kay.Framework.AspNetCore\Kay.Framework.AspNetCore.csproj" />
     <ProjectReference Include="..\Kay.Framework.Authorization\Kay.Framework.Authorization.csproj" />
+    <ProjectReference Include="..\Kay.Framework.ObjectMapping.TinyMapper\Kay.Framework.ObjectMapping.TinyMapper.csproj" />
+    <ProjectReference Include="..\Kay.Framework.Redis\Kay.Framework.Redis.csproj" />
+    <ProjectReference Include="..\Kay.Framework.Swagger\Kay.Framework.Swagger.csproj" />
+    <ProjectReference Include="..\Kay.Framework.Utility\Kay.Framework.Utility.csproj" />
     <ProjectReference Include="..\Kay.Framework\Kay.Framework.csproj" />
-    <ProjectReference Include="..\NLog.Extensions.Configuration\NLog.Extensions.Configuration.csproj" />
   </ItemGroup>
 
 
@@ -40,6 +44,13 @@
     <Compile Update="NLogMenuItem.cs">
       <SubType>Code</SubType>
     </Compile>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Content Update="NLog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

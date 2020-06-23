@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using NLog.Web;
@@ -46,7 +47,7 @@ namespace NLog.Extensions.Configuration
         /// </summary>
         /// <param name="app"></param>
         /// <returns></returns>
-        public static IWebHostBuilder UseNalongNLog(this IWebHostBuilder app)
+        public static IWebHostBuilder UseNLog(this IWebHostBuilder app)
         {
             app.UseNLog();
             return app;

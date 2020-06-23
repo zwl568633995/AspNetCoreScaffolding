@@ -61,7 +61,7 @@ namespace Kay.Framework.AspNetCore.Exceptions
             }
             );
             httpContext.Items["nl-items-errorCode"] = exception.GetErrorCode();
-            httpContext.Items["nl-items-middleware"] = "NalongExceptionMiddleware";
+            httpContext.Items["nl-items-middleware"] = "ExceptionMiddleware";
             _logger.LogException(exception, errorResponse);
             //清除掉errorCode 污染审计中间件
             httpContext.Items["nl-items-errorCode"] = "";

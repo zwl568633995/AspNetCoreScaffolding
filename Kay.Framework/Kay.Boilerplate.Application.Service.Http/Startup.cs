@@ -12,10 +12,21 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using NLog.Extensions.Configuration;
 using Kay.Framework.Extensions;
 using Kay.Framework.AspNetCore.Mvc.EntityFrameworkCore;
 using Kay.Framework.Domain.EntityFrameworkCore.DependencyInjection;
+using Kay.Boilerplate.ApplicationService.IAppService;
+using Kay.Boilerplate.Domain.Services;
+using Kay.Framework.AspNetCore.Mvc.Containers;
+using Kay.Framework.ObjectMapping.Abstractions;
+using Kay.Framework.ObjectMapping.TinyMapper;
+using Kay.Framework.AspNetCore.Exceptions;
+using NLog.Web;
+using Microsoft.Extensions.Logging;
+using NLog.Extensions.Logging;
+using Kay.Framework.Redis;
+using Kay.Boilerplate.Application.Service.Http.Filter;
+using Kay.Framework.Swagger;
 
 namespace Kay.Boilerplate.Application.Service.Http
 {
@@ -30,11 +41,6 @@ namespace Kay.Boilerplate.Application.Service.Http
 
         public void ConfigureServices(IServiceCollection services)
         {
-            #region 日志
-            var topic = Configuration.GetValue<string>("topic", "topic");
-            services.AddNLog(Configuration, topic);
-            #endregion
-
             #region NL-验证
             services.AddMvc(options =>
             {
@@ -53,8 +59,8 @@ namespace Kay.Boilerplate.Application.Service.Http
             #endregion 验证
 
             #region Ef实现注入
-            var dbType = Configuration.GetStringValue("dbType", "SqlServer");
-            var dbConnection = Configuration.GetStringValue("dbConnectionString");
+            var dbType = Configuration.GetStringValue("DbType", "SqlServer");
+            var dbConnection = Configuration.GetStringValue("DbConnectionString");
 
             services
                 .AddDbContext<BoilerplateDbContext>(opt =>
@@ -73,15 +79,26 @@ namespace Kay.Boilerplate.Application.Service.Http
 
             #endregion Ef实现注入
 
-            services.Configure<CookiePolicyOptions>(options =>
-            {
-                options.CheckConsentNeeded = context => true;
-                options.MinimumSameSitePolicy = SameSiteMode.None;
-            });
+            #region AppService、DomainService、Config、AutoMapper 注入
+           
+            services.AddAppService(typeof(IUserAppService).Assembly);
+            services.AddDomainService(typeof(TbUserDomainService).Assembly);
+            services.AddSingleton(typeof(IMapper), typeof(TinyMapperMapper));
+
+            #endregion AppService、DomainService、Config、AutoMapper 注入;
+
+            #region Redis注入
+            //redis连接字符串
+            var redisConn = Configuration.GetSection("Redis").GetStringValue("ConnStr");
+            services.AddSingleton(new RedisCliHelper(redisConn));
+            #endregion
+
+            services.AddSwaggerCustom(Configuration);
+
+            services.AddSession();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
@@ -90,13 +107,24 @@ namespace Kay.Boilerplate.Application.Service.Http
             else
             {
                 app.UseExceptionHandler("/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            //添加异常中间件
+            app.UseSession();
+            app.UseException();
+
+            //app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
+
+            app.UseSwaggerCustom(Configuration);
+
+            //引入NLog 日志组件注入
+            #region 日志
+            loggerFactory.AddNLog();
+            env.ConfigureNLog("NLog.config");
+            #endregion
 
             app.UseMvc();
         }

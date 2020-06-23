@@ -24,3 +24,11 @@ C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Authorization\bin\
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Authorization\obj\Debug\netstandard2.0\Kay.Framework.Authorization.csproj.CopyComplete
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Authorization\obj\Debug\netstandard2.0\Kay.Framework.Authorization.dll
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Authorization\obj\Debug\netstandard2.0\Kay.Framework.Authorization.pdb
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Authorization\bin\Debug\netstandard2.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Authorization\bin\Debug\netstandard2.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Authorization\bin\Debug\netstandard2.0\Microsoft.IdentityModel.Tokens.pdb
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Authorization\bin\Debug\netstandard2.0\Microsoft.IdentityModel.Tokens.xml
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Authorization\bin\Debug\netstandard2.0\System.IdentityModel.Tokens.Jwt.pdb
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Authorization\bin\Debug\netstandard2.0\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Authorization\bin\Debug\netstandard2.0\Kay.Framework.Redis.dll
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Authorization\bin\Debug\netstandard2.0\Kay.Framework.Redis.pdb

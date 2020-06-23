@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "3d7c7dcbedc08781d759a903800ce35fc9a55eb1"
+    "signature": "fa17af82e33b3e78e369877e229957251eceb732"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,10 +11,24 @@
         "dependencies": {
           "JWT": "5.2.3",
           "Kay.Framework.AspNetCore.Mvc": "1.0.0",
-          "NETStandard.Library": "2.0.3"
+          "NETStandard.Library": "2.0.3",
+          "Microsoft.IdentityModel.Tokens": "5.3.0.0",
+          "System.IdentityModel.Tokens.Jwt": "5.3.0.0"
         },
         "runtime": {
           "Kay.Framework.Authorization.dll": {}
+        }
+      },
+      "CSRedisCore/3.6.5": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/CSRedisCore.dll": {
+            "assemblyVersion": "3.6.5.0",
+            "fileVersion": "3.6.5.0"
+          }
         }
       },
       "JetBrains.Annotations/2020.1.0": {
@@ -517,7 +531,7 @@
           "System.Threading.Tasks": "4.3.0",
           "System.Threading.Tasks.Parallel": "4.3.0",
           "System.Threading.Thread": "4.3.0",
-          "System.ValueTuple": "4.3.0",
+          "System.ValueTuple": "4.5.0",
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XDocument": "4.3.0",
           "System.Xml.XPath.XDocument": "4.3.0",
@@ -1478,6 +1492,17 @@
           }
         }
       },
+      "System.Linq.Dynamic.Core/1.0.18": {
+        "dependencies": {
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Linq.Dynamic.Core.dll": {
+            "assemblyVersion": "1.0.18.0",
+            "fileVersion": "1.0.18.0"
+          }
+        }
+      },
       "System.Linq.Expressions/4.3.0": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -2034,19 +2059,7 @@
           }
         }
       },
-      "System.ValueTuple/4.3.0": {
-        "dependencies": {
-          "System.Collections": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0"
-        },
-        "runtime": {
-          "lib/netstandard1.0/System.ValueTuple.dll": {
-            "assemblyVersion": "4.0.1.0",
-            "fileVersion": "4.6.24705.1"
-          }
-        }
-      },
+      "System.ValueTuple/4.5.0": {},
       "System.Xml.ReaderWriter/4.3.0": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -2166,12 +2179,14 @@
       },
       "Kay.Framework.AspNetCore.Mvc/1.0.0": {
         "dependencies": {
+          "JWT": "5.2.3",
           "JetBrains.Annotations": "2020.1.0",
           "Kay.Framework": "1.0.0",
           "Kay.Framework.Domain": "1.0.0",
           "Kay.Framework.EntityFrameworkCore.MySQL": "1.0.0",
           "Kay.Framework.EntityFrameworkCore.Oracle": "1.0.0",
           "Kay.Framework.EntityFrameworkCore.SqlServer": "1.0.0",
+          "Kay.Framework.Redis": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.AspNetCore.Mvc.Versioning": "3.1.4",
           "MiniProfiler.AspNetCore.Mvc": "4.1.0",
@@ -2191,7 +2206,8 @@
           "Kay.Framework": "1.0.0",
           "Kay.Framework.ObjectMapping.Abstractions": "1.0.0",
           "Kay.Framework.Utility": "1.0.0",
-          "System.ComponentModel.Annotations": "4.7.0"
+          "System.ComponentModel.Annotations": "4.7.0",
+          "System.Linq.Dynamic.Core": "1.0.18"
         },
         "runtime": {
           "Kay.Framework.Domain.dll": {}
@@ -2232,9 +2248,33 @@
           "Kay.Framework.ObjectMapping.Abstractions.dll": {}
         }
       },
+      "Kay.Framework.Redis/1.0.0": {
+        "dependencies": {
+          "CSRedisCore": "3.6.5"
+        },
+        "runtime": {
+          "Kay.Framework.Redis.dll": {}
+        }
+      },
       "Kay.Framework.Utility/1.0.0": {
         "runtime": {
           "Kay.Framework.Utility.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/5.3.0.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "5.3.0.0",
+            "fileVersion": "5.3.0.51005"
+          }
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/5.3.0.0": {
+        "runtime": {
+          "System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "5.3.0.0",
+            "fileVersion": "5.3.0.51005"
+          }
         }
       }
     }
@@ -2244,6 +2284,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "CSRedisCore/3.6.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-leAH+nG/WalDKiQFy1aCbUzNimvguRUvOnC8TwwcgoxeAonF7oWv0ilUpJ1ntqtRmLZhRWSO+we8yf0xm4Q/7A==",
+      "path": "csrediscore/3.6.5",
+      "hashPath": "csrediscore.3.6.5.nupkg.sha512"
     },
     "JetBrains.Annotations/2020.1.0": {
       "type": "package",
@@ -3204,6 +3251,13 @@
       "path": "system.linq/4.3.0",
       "hashPath": "system.linq.4.3.0.nupkg.sha512"
     },
+    "System.Linq.Dynamic.Core/1.0.18": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VonVK0xHQLzm+H6n5TE6wDwoCrVMuTBMdGQrXDfIAmf/klG/sJUai3bkMTlTgtqArB1NYEdWxUVqpPFnMZwVog==",
+      "path": "system.linq.dynamic.core/1.0.18",
+      "hashPath": "system.linq.dynamic.core.1.0.18.nupkg.sha512"
+    },
     "System.Linq.Expressions/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -3505,12 +3559,12 @@
       "path": "system.threading.thread/4.3.0",
       "hashPath": "system.threading.thread.4.3.0.nupkg.sha512"
     },
-    "System.ValueTuple/4.3.0": {
+    "System.ValueTuple/4.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cNLEvBX3d6MMQRZe3SMFNukVbitDAEpVZO17qa0/2FHxZ7Y7PpFRpr6m2615XYM/tYYYf0B+WyHNujqIw8Luwg==",
-      "path": "system.valuetuple/4.3.0",
-      "hashPath": "system.valuetuple.4.3.0.nupkg.sha512"
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
     },
     "System.Xml.ReaderWriter/4.3.0": {
       "type": "package",
@@ -3582,8 +3636,23 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Kay.Framework.Redis/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Kay.Framework.Utility/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Tokens/5.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.IdentityModel.Tokens.Jwt/5.3.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

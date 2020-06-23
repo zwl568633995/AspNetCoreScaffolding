@@ -6,4 +6,3 @@ C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework\obj\Debug\netstand
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework\bin\Debug\netstandard2.0\Kay.Framework.pdb
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework\obj\Debug\netstandard2.0\Kay.Framework.dll
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework\obj\Debug\netstandard2.0\Kay.Framework.pdb
-C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework\obj\Debug\netstandard2.0\Kay.Framework.csprojAssemblyReference.cache

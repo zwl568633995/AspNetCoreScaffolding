@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Kay.Framework.Utility.Extensions
 {
-   public  class TimeExtension
+   public class TimeExtension
     {
         public static Func<long> CurrentTimeFunc = InternalCurrentTimeMillis;
 
@@ -39,5 +39,6 @@ namespace Kay.Framework.Utility.Extensions
         {
             return (long)(DateTime.UtcNow - Jan1st1970).TotalMilliseconds;
         }
+
     }
 }

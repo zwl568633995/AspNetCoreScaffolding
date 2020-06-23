@@ -16,7 +16,7 @@ namespace Kay.Framework.AspNetCore.Mvc.Containers
         /// </summary>
         /// <param name="services"></param>
         /// <param name="assemblies"></param>
-        public static void AddNalongApiService(this IServiceCollection services, params Assembly[] assemblies)
+        public static void AddApiService(this IServiceCollection services, params Assembly[] assemblies)
         {
             services.AddScoped<IApiService>(assemblies);
         }
@@ -26,7 +26,7 @@ namespace Kay.Framework.AspNetCore.Mvc.Containers
         /// </summary>
         /// <param name="services"></param>
         /// <param name="assemblies"></param>
-        public static void AddNalongAppService(this IServiceCollection services, params Assembly[] assemblies)
+        public static void AddAppService(this IServiceCollection services, params Assembly[] assemblies)
         {
             services.AddScoped<IAppService>(assemblies);
         }
@@ -36,7 +36,7 @@ namespace Kay.Framework.AspNetCore.Mvc.Containers
         /// </summary>
         /// <param name="services"></param>
         /// <param name="assemblies"></param>
-        public static void AddNalongDomainService(this IServiceCollection services, params Assembly[] assemblies)
+        public static void AddDomainService(this IServiceCollection services, params Assembly[] assemblies)
         {
             var list = new List<Type>();
             foreach (var assembly in assemblies)
@@ -66,7 +66,7 @@ namespace Kay.Framework.AspNetCore.Mvc.Containers
         /// </summary>
         /// <param name="services"></param>
         /// <param name="assemblies"></param>
-        public static void AddNalongPlugInService(this IServiceCollection services, params Assembly[] assemblies)
+        public static void AddPlugInService(this IServiceCollection services, params Assembly[] assemblies)
         {
             services.AddSingleton<IPluginService>(assemblies);
 
@@ -77,7 +77,7 @@ namespace Kay.Framework.AspNetCore.Mvc.Containers
         /// </summary>
         /// <param name="services"></param>
         /// <param name="assemblies"></param>
-        public static void AddNalongConfig(this IServiceCollection services, params Assembly[] assemblies)
+        public static void AddConfig(this IServiceCollection services, params Assembly[] assemblies)
         {
             services.AddSingleton<IConfig>(assemblies);
         }

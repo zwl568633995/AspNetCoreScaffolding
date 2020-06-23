@@ -3,7 +3,7 @@ C:\Users\zhengweilin\Desktop\core\Kay.Framework\NLog.Extensions.Configuration\bi
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\NLog.Extensions.Configuration\obj\Debug\netstandard2.0\NLog.Extensions.Configuration.csproj.CoreCompileInputs.cache
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\NLog.Extensions.Configuration\obj\Debug\netstandard2.0\NLog.Extensions.Configuration.AssemblyInfoInputs.cache
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\NLog.Extensions.Configuration\obj\Debug\netstandard2.0\NLog.Extensions.Configuration.AssemblyInfo.cs
-C:\Users\zhengweilin\Desktop\core\Kay.Framework\NLog.Extensions.Configuration\obj\Debug\netstandard2.0\NLog.Extensions.Configuration.csprojAssemblyReference.cache
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\NLog.Extensions.Configuration\bin\Debug\netstandard2.0\NLog.Extensions.Configuration.pdb
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\NLog.Extensions.Configuration\obj\Debug\netstandard2.0\NLog.Extensions.Configuration.dll
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\NLog.Extensions.Configuration\obj\Debug\netstandard2.0\NLog.Extensions.Configuration.pdb
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\NLog.Extensions.Configuration\obj\Debug\netstandard2.0\NLog.Extensions.Configuration.csprojAssemblyReference.cache

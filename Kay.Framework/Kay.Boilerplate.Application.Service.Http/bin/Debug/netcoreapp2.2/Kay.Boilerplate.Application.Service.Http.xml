@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Kay.Boilerplate.Application.Service.Http</name>
+    </assembly>
+    <members>
+        <member name="M:Kay.Boilerplate.Application.Service.Http.Controllers.AuthController.Login(System.String,System.String)">
+            <summary>
+            登录授权
+            </summary>
+            <param name="username">用户名</param>
+            <param name="pwd">密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:Kay.Boilerplate.Application.Service.Http.Controllers.AuthController.Get">
+            <summary>
+            测试验证token
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Kay.Boilerplate.Application.Service.Http.Controllers.UserController.GetByUserName(System.String)">
+            <summary>
+            根据用户名获取用户信息
+            </summary>
+            <param name="userName"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

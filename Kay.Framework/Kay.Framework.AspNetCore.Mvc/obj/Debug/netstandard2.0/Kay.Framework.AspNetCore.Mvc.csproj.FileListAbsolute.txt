@@ -22,3 +22,5 @@ C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.AspNetCore.Mvc\obj
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.AspNetCore.Mvc\obj\Debug\netstandard2.0\Kay.Framework.AspNetCore.Mvc.pdb
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.AspNetCore.Mvc\bin\Debug\netstandard2.0\Kay.Framework.ObjectMapping.Abstractions.dll
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.AspNetCore.Mvc\bin\Debug\netstandard2.0\Kay.Framework.ObjectMapping.Abstractions.pdb
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.AspNetCore.Mvc\bin\Debug\netstandard2.0\Kay.Framework.Redis.dll
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.AspNetCore.Mvc\bin\Debug\netstandard2.0\Kay.Framework.Redis.pdb

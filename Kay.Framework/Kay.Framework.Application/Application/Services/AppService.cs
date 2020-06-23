@@ -1,11 +1,8 @@
 ﻿using Kay.Framework.RegisterInterfaces;
 using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using Microsoft.Extensions.DependencyInjection;
 using Kay.Framework.Domain.UnitOfWork;
-using Kay.Framework.Exceptions;
 using Microsoft.Extensions.Logging.Abstractions;
 using Kay.Framework.ObjectMapping.Abstractions;
 

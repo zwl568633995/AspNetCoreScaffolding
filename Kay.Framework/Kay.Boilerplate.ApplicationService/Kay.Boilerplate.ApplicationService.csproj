@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kay.Boilerplate.Domain\Kay.Boilerplate.Domain.csproj" />
+    <ProjectReference Include="..\Kay.Framework.Application\Kay.Framework.Application.csproj" />
+    <ProjectReference Include="..\Kay.Framework.Authorization\Kay.Framework.Authorization.csproj" />
+    <ProjectReference Include="..\Kay.Framework.Redis\Kay.Framework.Redis.csproj" />
+    <ProjectReference Include="..\Kay.Framework\Kay.Framework.csproj" />
+  </ItemGroup>
+
+</Project>

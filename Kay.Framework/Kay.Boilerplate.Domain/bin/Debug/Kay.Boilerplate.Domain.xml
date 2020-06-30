@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Kay.Boilerplate.Domain</name>
+    </assembly>
+    <members>
+        <member name="P:Kay.Boilerplate.Domain.Entities.TbItemEntity.ItemName">
+            <summary>
+            商品名称
+            </summary>
+        </member>
+        <member name="P:Kay.Boilerplate.Domain.Entities.TbItemEntity.OriPrice">
+            <summary>
+            原价
+            </summary>
+        </member>
+        <member name="P:Kay.Boilerplate.Domain.Entities.TbItemEntity.DisPrice">
+            <summary>
+            现价
+            </summary>
+        </member>
+        <member name="P:Kay.Boilerplate.Domain.Entities.TbItemEntity.Cashback">
+            <summary>
+            返现
+            </summary>
+        </member>
+        <member name="P:Kay.Boilerplate.Domain.Entities.TbItemEntity.SaleType">
+            <summary>
+            销售状态
+            </summary>
+        </member>
+        <member name="P:Kay.Boilerplate.Domain.Entities.TbItemEntity.SaleCount">
+            <summary>
+            销售量
+            </summary>
+        </member>
+        <member name="P:Kay.Boilerplate.Domain.Entities.TbItemEntity.StockCount">
+            <summary>
+            库存量
+            </summary>
+        </member>
+        <member name="P:Kay.Boilerplate.Domain.Entities.TbItemEntity.StartTime">
+            <summary>
+            活动开始时间
+            </summary>
+        </member>
+        <member name="P:Kay.Boilerplate.Domain.Entities.TbItemEntity.EndTime">
+            <summary>
+            活动结束时间
+            </summary>
+        </member>
+        <member name="P:Kay.Boilerplate.Domain.Entities.TbItemImageEntity.ItemId">
+            <summary>
+            商品Id
+            </summary>
+        </member>
+        <member name="P:Kay.Boilerplate.Domain.Entities.TbItemImageEntity.ImageSource">
+            <summary>
+            图片地址
+            </summary>
+        </member>
+        <member name="M:Kay.Boilerplate.Domain.Specifications.ItemFilterPagedSpec.#ctor">
+            <summary>
+            todo:参数是否参加查询需要判断
+            </summary>
+            <param name="fileFormatType"></param>
+            <param name="fileProject"></param>
+        </member>
+    </members>
+</doc>

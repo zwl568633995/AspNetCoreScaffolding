@@ -41,7 +41,9 @@ namespace Kay.Boilerplate.Application.Service.Http
 
         public void ConfigureServices(IServiceCollection services)
         {
-            #region NL-验证
+            services.AddSession();
+
+            #region 验证
             services.AddMvc(options =>
             {
                 options.Filters.Add<ValidateModelAttribute>();
@@ -93,9 +95,9 @@ namespace Kay.Boilerplate.Application.Service.Http
             services.AddSingleton(new RedisCliHelper(redisConn));
             #endregion
 
+            #region Swagger注入
             services.AddSwaggerCustom(Configuration);
-
-            services.AddSession();
+            #endregion
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
@@ -111,22 +113,26 @@ namespace Kay.Boilerplate.Application.Service.Http
             }
 
             //添加异常中间件
-            app.UseSession();
             app.UseException();
+            //app.UseResponseCompression();
 
             //app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
 
+            #region Swagger
             app.UseSwaggerCustom(Configuration);
+            #endregion
 
-            //引入NLog 日志组件注入
             #region 日志
+            //引入NLog 日志组件注入
             loggerFactory.AddNLog();
             env.ConfigureNLog("NLog.config");
             #endregion
 
+            //app.UseSession();
             app.UseMvc();
+
         }
     }
 }

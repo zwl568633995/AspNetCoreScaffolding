@@ -58,7 +58,7 @@ namespace Kay.Framework.Swagger
                 //设置Swagger注释  需要 右键项目 -> 生成  -> 输出 -> 勾选XML文档文件 才会产生XML文件
                 var xmlPath = Path.Combine(basePath, "Kay.Boilerplate.Application.Service.Http.xml");
                 if (System.IO.File.Exists(xmlPath))
-                    options.IncludeXmlComments(xmlPath);
+                    options.IncludeXmlComments(xmlPath);          
             });
 
             return services;

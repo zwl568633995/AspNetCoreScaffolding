@@ -27,8 +27,4 @@
     <ProjectReference Include="..\Kay.Framework\Kay.Framework.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Swagger\" />
-  </ItemGroup>
-
 </Project>

@@ -1301,6 +1301,7 @@
       "Kay.Boilerplate.ApplicationService/1.0.0": {
         "dependencies": {
           "Kay.Boilerplate.Domain": "1.0.0",
+          "Kay.Boilerplate.Infrastructure.Treasure": "1.0.0",
           "Kay.Framework": "1.0.0",
           "Kay.Framework.Application": "1.0.0",
           "Kay.Framework.Authorization": "1.0.0",
@@ -1337,6 +1338,14 @@
         },
         "compile": {
           "Kay.Boilerplate.Infrastructure.BoundedContext.Ef.dll": {}
+        }
+      },
+      "Kay.Boilerplate.Infrastructure.Treasure/1.0.0": {
+        "runtime": {
+          "Kay.Boilerplate.Infrastructure.Treasure.dll": {}
+        },
+        "compile": {
+          "Kay.Boilerplate.Infrastructure.Treasure.dll": {}
         }
       },
       "Kay.Framework/1.0.0": {
@@ -5084,6 +5093,11 @@
       "sha512": ""
     },
     "Kay.Boilerplate.Infrastructure.BoundedContext.Ef/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Kay.Boilerplate.Infrastructure.Treasure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

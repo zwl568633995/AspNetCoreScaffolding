@@ -1,9 +1,9 @@
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Swagger\bin\Debug\netstandard2.0\Kay.Framework.Swagger.deps.json
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Swagger\bin\Debug\netstandard2.0\Kay.Framework.Swagger.dll
-C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Swagger\obj\Debug\netstandard2.0\Kay.Framework.Swagger.csprojAssemblyReference.cache
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Swagger\bin\Debug\netstandard2.0\Kay.Framework.Swagger.pdb
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Swagger\obj\Debug\netstandard2.0\Kay.Framework.Swagger.csproj.CoreCompileInputs.cache
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Swagger\obj\Debug\netstandard2.0\Kay.Framework.Swagger.AssemblyInfoInputs.cache
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Swagger\obj\Debug\netstandard2.0\Kay.Framework.Swagger.AssemblyInfo.cs
-C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Swagger\bin\Debug\netstandard2.0\Kay.Framework.Swagger.pdb
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Swagger\obj\Debug\netstandard2.0\Kay.Framework.Swagger.dll
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Swagger\obj\Debug\netstandard2.0\Kay.Framework.Swagger.pdb
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Swagger\obj\Debug\netstandard2.0\Kay.Framework.Swagger.csprojAssemblyReference.cache

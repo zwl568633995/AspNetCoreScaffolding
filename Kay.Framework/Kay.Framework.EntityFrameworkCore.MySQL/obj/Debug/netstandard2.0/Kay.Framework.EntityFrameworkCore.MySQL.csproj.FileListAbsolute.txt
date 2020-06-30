@@ -1,9 +1,9 @@
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.MySQL\bin\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.MySQL.deps.json
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.MySQL\bin\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.MySQL.dll
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.MySQL\bin\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.MySQL.pdb
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.MySQL\obj\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.MySQL.csprojAssemblyReference.cache
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.MySQL\obj\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.MySQL.csproj.CoreCompileInputs.cache
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.MySQL\obj\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.MySQL.AssemblyInfoInputs.cache
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.MySQL\obj\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.MySQL.AssemblyInfo.cs
-C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.MySQL\bin\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.MySQL.pdb
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.MySQL\obj\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.MySQL.dll
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.MySQL\obj\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.MySQL.pdb
-C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.MySQL\obj\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.MySQL.csprojAssemblyReference.cache

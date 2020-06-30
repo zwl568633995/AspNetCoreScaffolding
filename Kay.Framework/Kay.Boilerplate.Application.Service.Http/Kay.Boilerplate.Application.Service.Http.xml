@@ -4,18 +4,29 @@
         <name>Kay.Boilerplate.Application.Service.Http</name>
     </assembly>
     <members>
-        <member name="M:Kay.Boilerplate.Application.Service.Http.Controllers.AuthController.Login(System.String,System.String)">
+        <member name="M:Kay.Boilerplate.Application.Service.Http.Controllers.AuthController.Login(Kay.Boilerplate.ApplicationService.Dto.UserDto)">
             <summary>
             登录授权
             </summary>
-            <param name="username">用户名</param>
-            <param name="pwd">密码</param>
+            <param name="userDto"></param>
             <returns></returns>
         </member>
         <member name="M:Kay.Boilerplate.Application.Service.Http.Controllers.AuthController.Get">
             <summary>
             测试验证token
             </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Kay.Boilerplate.Application.Service.Http.Controllers.ItemController">
+            <summary>
+            商品
+            </summary>
+        </member>
+        <member name="M:Kay.Boilerplate.Application.Service.Http.Controllers.ItemController.GetList(Kay.Boilerplate.ApplicationService.Dto.PagedAndSortedRequest)">
+            <summary>
+            获取商品分页
+            </summary>
+            <param name="pagedAndSortedRequest"></param>
             <returns></returns>
         </member>
         <member name="M:Kay.Boilerplate.Application.Service.Http.Controllers.UserController.GetByUserName(System.String)">

@@ -10,6 +10,7 @@
       "Kay.Boilerplate.ApplicationService/1.0.0": {
         "dependencies": {
           "Kay.Boilerplate.Domain": "1.0.0",
+          "Kay.Boilerplate.Infrastructure.Treasure": "1.0.0",
           "Kay.Framework": "1.0.0",
           "Kay.Framework.Application": "1.0.0",
           "Kay.Framework.Authorization": "1.0.0",
@@ -2175,6 +2176,11 @@
           "Kay.Boilerplate.Domain.dll": {}
         }
       },
+      "Kay.Boilerplate.Infrastructure.Treasure/1.0.0": {
+        "runtime": {
+          "Kay.Boilerplate.Infrastructure.Treasure.dll": {}
+        }
+      },
       "Kay.Framework/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Binder": "2.2.0",
@@ -3633,6 +3639,11 @@
       "hashPath": "system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
     },
     "Kay.Boilerplate.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Kay.Boilerplate.Infrastructure.Treasure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

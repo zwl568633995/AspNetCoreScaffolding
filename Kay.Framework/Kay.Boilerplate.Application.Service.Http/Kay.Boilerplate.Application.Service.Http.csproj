@@ -3,11 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Boilerplate.Application.Service.Http\Kay.Boilerplate.Application.Service.Http.xml</DocumentationFile>
-    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Boilerplate.Application.Service.Http\bin\Debug\Kay.Boilerplate.Application.Service.Http.xml</DocumentationFile>
+    <OutputPath></OutputPath>
   </PropertyGroup>
 
 
@@ -15,6 +16,7 @@
     <PackageReference Include="JWT" Version="7.2.1" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.4.10" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
     <PackageReference Include="NLog.Web.AspNetCore" Version="4.8.4" />
   </ItemGroup>

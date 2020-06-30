@@ -31,11 +31,6 @@ namespace Kay.Framework.AspNetCore.Exceptions
         {
             try
             {
-                foreach (var item in context.Session.Keys)
-                {
-
-                }
-
                 await _next(context);
             }
             catch (Exception e)

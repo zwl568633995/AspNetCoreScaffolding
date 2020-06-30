@@ -1,0 +1,8 @@
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Boilerplate.Infrastructure.Treasure\bin\Debug\netstandard2.0\Kay.Boilerplate.Infrastructure.Treasure.deps.json
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Boilerplate.Infrastructure.Treasure\bin\Debug\netstandard2.0\Kay.Boilerplate.Infrastructure.Treasure.dll
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Boilerplate.Infrastructure.Treasure\bin\Debug\netstandard2.0\Kay.Boilerplate.Infrastructure.Treasure.pdb
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Boilerplate.Infrastructure.Treasure\obj\Debug\netstandard2.0\Kay.Boilerplate.Infrastructure.Treasure.csproj.CoreCompileInputs.cache
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Boilerplate.Infrastructure.Treasure\obj\Debug\netstandard2.0\Kay.Boilerplate.Infrastructure.Treasure.AssemblyInfoInputs.cache
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Boilerplate.Infrastructure.Treasure\obj\Debug\netstandard2.0\Kay.Boilerplate.Infrastructure.Treasure.AssemblyInfo.cs
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Boilerplate.Infrastructure.Treasure\obj\Debug\netstandard2.0\Kay.Boilerplate.Infrastructure.Treasure.dll
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Boilerplate.Infrastructure.Treasure\obj\Debug\netstandard2.0\Kay.Boilerplate.Infrastructure.Treasure.pdb

@@ -3,7 +3,6 @@ using System;
 using Kay.Boilerplate.Infrastructure.BoundedContext.Ef;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Kay.Boilerplate.Infrastructure.BoundedContext.Ef.Migrations
@@ -16,8 +15,134 @@ namespace Kay.Boilerplate.Infrastructure.BoundedContext.Ef.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "2.2.6-servicing-10079")
-                .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                .HasAnnotation("Relational:MaxIdentifierLength", 64);
+
+            modelBuilder.Entity("Kay.Boilerplate.Domain.Entities.TbCityEntity", b =>
+                {
+                    b.Property<long>("Id");
+
+                    b.Property<DateTime?>("AddTime");
+
+                    b.Property<string>("CityCase");
+
+                    b.Property<string>("CityName");
+
+                    b.Property<bool>("IsHotCity");
+
+                    b.Property<double>("Latitude");
+
+                    b.Property<double>("Longitude");
+
+                    b.Property<DateTime?>("ModTime");
+
+                    b.Property<string>("Province");
+
+                    b.Property<int>("Status");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TbCity");
+                });
+
+            modelBuilder.Entity("Kay.Boilerplate.Domain.Entities.TbItemEntity", b =>
+                {
+                    b.Property<long>("Id");
+
+                    b.Property<DateTime?>("AddTime");
+
+                    b.Property<decimal>("Cashback");
+
+                    b.Property<long>("CityId");
+
+                    b.Property<decimal>("DisPrice");
+
+                    b.Property<DateTime>("EndTime");
+
+                    b.Property<string>("Introduction");
+
+                    b.Property<string>("ItemName");
+
+                    b.Property<DateTime?>("ModTime");
+
+                    b.Property<decimal>("OriPrice");
+
+                    b.Property<int>("SaleCount");
+
+                    b.Property<int>("SaleType");
+
+                    b.Property<DateTime>("StartTime");
+
+                    b.Property<int>("Status");
+
+                    b.Property<int>("StockCount");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TbItem");
+                });
+
+            modelBuilder.Entity("Kay.Boilerplate.Domain.Entities.TbItemImageEntity", b =>
+                {
+                    b.Property<long>("Id");
+
+                    b.Property<DateTime?>("AddTime");
+
+                    b.Property<string>("ImageSource");
+
+                    b.Property<long>("ItemId");
+
+                    b.Property<DateTime?>("ModTime");
+
+                    b.Property<int>("Status");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TbItemImage");
+                });
+
+            modelBuilder.Entity("Kay.Boilerplate.Domain.Entities.TbItemShopRelatedEntity", b =>
+                {
+                    b.Property<long>("Id");
+
+                    b.Property<DateTime?>("AddTime");
+
+                    b.Property<long>("ItemId");
+
+                    b.Property<DateTime?>("ModTime");
+
+                    b.Property<long>("ShopId");
+
+                    b.Property<int>("Status");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TbItemShopRelated");
+                });
+
+            modelBuilder.Entity("Kay.Boilerplate.Domain.Entities.TbShopEntity", b =>
+                {
+                    b.Property<long>("Id");
+
+                    b.Property<DateTime?>("AddTime");
+
+                    b.Property<double>("Latitude");
+
+                    b.Property<double>("Longitude");
+
+                    b.Property<DateTime?>("ModTime");
+
+                    b.Property<string>("ShopAddress");
+
+                    b.Property<string>("ShopName");
+
+                    b.Property<string>("ShopPhone");
+
+                    b.Property<int>("Status");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TbShop");
+                });
 
             modelBuilder.Entity("Kay.Boilerplate.Domain.Entities.TbUserEntity", b =>
                 {

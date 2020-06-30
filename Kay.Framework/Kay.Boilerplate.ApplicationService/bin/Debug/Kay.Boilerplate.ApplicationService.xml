@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Kay.Boilerplate.ApplicationService</name>
+    </assembly>
+    <members>
+        <member name="M:Kay.Boilerplate.ApplicationService.AppService.ItemAppService.GetList(Kay.Boilerplate.ApplicationService.Dto.PagedAndSortedRequest)">
+            <summary>
+            获取商品列表
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Kay.Boilerplate.ApplicationService.Dto.PagedAndSortedRequest.Sorting">
+            <summary>
+            排序字段
+            </summary>
+        </member>
+        <member name="P:Kay.Boilerplate.ApplicationService.Dto.PagedAndSortedRequest.IsAsc">
+            <summary>
+            是否正序排列
+            </summary>
+        </member>
+        <member name="P:Kay.Boilerplate.ApplicationService.Dto.PageResult`1.Records">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="P:Kay.Boilerplate.ApplicationService.Dto.Response.ItemListReponse.Id">
+            <summary>
+            商品ID
+            </summary>
+        </member>
+        <member name="P:Kay.Boilerplate.ApplicationService.Dto.Response.ItemListReponse.ItemName">
+            <summary>
+            商品名称
+            </summary>
+        </member>
+        <member name="P:Kay.Boilerplate.ApplicationService.Dto.Response.ItemListReponse.OriPrice">
+            <summary>
+            原价
+            </summary>
+        </member>
+        <member name="P:Kay.Boilerplate.ApplicationService.Dto.Response.ItemListReponse.DisPrice">
+            <summary>
+            现价
+            </summary>
+        </member>
+        <member name="P:Kay.Boilerplate.ApplicationService.Dto.Response.ItemListReponse.Cashback">
+            <summary>
+            返现
+            </summary>
+        </member>
+        <member name="P:Kay.Boilerplate.ApplicationService.Dto.Response.ItemListReponse.SaleType">
+            <summary>
+            销售状态
+            </summary>
+        </member>
+        <member name="P:Kay.Boilerplate.ApplicationService.Dto.Response.ItemListReponse.SaleCount">
+            <summary>
+            销售量
+            </summary>
+        </member>
+        <member name="P:Kay.Boilerplate.ApplicationService.Dto.Response.ItemListReponse.StockCount">
+            <summary>
+            库存量
+            </summary>
+        </member>
+        <member name="P:Kay.Boilerplate.ApplicationService.Dto.Response.ItemListReponse.StartTime">
+            <summary>
+            活动开始时间
+            </summary>
+        </member>
+        <member name="P:Kay.Boilerplate.ApplicationService.Dto.Response.ItemListReponse.EndTime">
+            <summary>
+            活动结束时间
+            </summary>
+        </member>
+        <member name="P:Kay.Boilerplate.ApplicationService.Dto.Response.ItemListReponse.Covers">
+            <summary>
+            封面
+            </summary>
+        </member>
+    </members>
+</doc>

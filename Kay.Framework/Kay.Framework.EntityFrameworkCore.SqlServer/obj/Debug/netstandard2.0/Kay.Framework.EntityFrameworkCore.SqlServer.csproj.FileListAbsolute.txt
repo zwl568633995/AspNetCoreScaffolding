@@ -1,8 +1,8 @@
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.SqlServer\bin\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.SqlServer.deps.json
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.SqlServer\bin\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.SqlServer.dll
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.SqlServer\bin\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.SqlServer.pdb
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.SqlServer\obj\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.SqlServer.csproj.CoreCompileInputs.cache
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.SqlServer\obj\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.SqlServer.AssemblyInfoInputs.cache
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.SqlServer\obj\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.SqlServer.AssemblyInfo.cs
-C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.SqlServer\bin\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.SqlServer.pdb
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.SqlServer\obj\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.SqlServer.dll
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.EntityFrameworkCore.SqlServer\obj\Debug\netstandard2.0\Kay.Framework.EntityFrameworkCore.SqlServer.pdb

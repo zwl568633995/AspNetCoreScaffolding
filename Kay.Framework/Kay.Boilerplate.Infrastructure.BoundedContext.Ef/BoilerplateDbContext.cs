@@ -10,6 +10,15 @@ namespace Kay.Boilerplate.Infrastructure.BoundedContext.Ef
     {
         public DbSet<TbUserEntity> TbUserEntities { get; set; }
 
+        public DbSet<TbItemEntity> TbItemEntities { get; set; }
+
+        public DbSet<TbItemImageEntity> TbItemImageEntities { get; set; }
+
+        public DbSet<TbCityEntity> TbCityEntities { get; set; }
+
+        public DbSet<TbShopEntity> TbShopEntities { get; set; }
+
+        public DbSet<TbItemShopRelatedEntity> TbItemShopRelatedEntities { get; set; }
 
         public BoilerplateDbContext(
             DbContextOptions<BoilerplateDbContext> options,

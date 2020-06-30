@@ -4,12 +4,22 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath></OutputPath>
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\Kay.Boilerplate.Domain\Kay.Boilerplate.Domain.csproj" />
+    <ProjectReference Include="..\Kay.Boilerplate.Infrastructure.Treasure\Kay.Boilerplate.Infrastructure.Treasure.csproj" />
     <ProjectReference Include="..\Kay.Framework.Application\Kay.Framework.Application.csproj" />
     <ProjectReference Include="..\Kay.Framework.Authorization\Kay.Framework.Authorization.csproj" />
     <ProjectReference Include="..\Kay.Framework.Redis\Kay.Framework.Redis.csproj" />
     <ProjectReference Include="..\Kay.Framework\Kay.Framework.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dto\Request\" />
   </ItemGroup>
 
 </Project>

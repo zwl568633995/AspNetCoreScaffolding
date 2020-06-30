@@ -73,6 +73,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Swagger", "Swagger", "{DB76
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kay.Framework.Swagger", "Kay.Framework.Swagger\Kay.Framework.Swagger.csproj", "{1035E0EC-7DC5-4E66-9B4C-C426046FED5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kay.Boilerplate.Infrastructure.Treasure", "Kay.Boilerplate.Infrastructure.Treasure\Kay.Boilerplate.Infrastructure.Treasure.csproj", "{B6B5A06E-D68F-4F2D-91D9-FAF247F74995}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -167,6 +169,10 @@ Global
 		{1035E0EC-7DC5-4E66-9B4C-C426046FED5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1035E0EC-7DC5-4E66-9B4C-C426046FED5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1035E0EC-7DC5-4E66-9B4C-C426046FED5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6B5A06E-D68F-4F2D-91D9-FAF247F74995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6B5A06E-D68F-4F2D-91D9-FAF247F74995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6B5A06E-D68F-4F2D-91D9-FAF247F74995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6B5A06E-D68F-4F2D-91D9-FAF247F74995}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -203,6 +209,7 @@ Global
 		{A86A478A-717A-4C69-B5E1-9DF58CC55723} = {391A39A8-A36B-4C67-8F5B-5C1AD2198EFC}
 		{DB7640D7-7F96-4735-B173-6652CACC053F} = {D13FEECE-930B-4858-A01E-7BD1508EF915}
 		{1035E0EC-7DC5-4E66-9B4C-C426046FED5E} = {DB7640D7-7F96-4735-B173-6652CACC053F}
+		{B6B5A06E-D68F-4F2D-91D9-FAF247F74995} = {A5A6ED46-1DFF-4A0F-A7AB-CC40A40DF701}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {49EF540E-B77C-4F82-BC5C-758362D48BB7}

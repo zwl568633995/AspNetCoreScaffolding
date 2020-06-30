@@ -2728,6 +2728,16 @@
           "bin/placeholder/Kay.Boilerplate.Domain.dll": {}
         }
       },
+      "Kay.Boilerplate.Infrastructure.Treasure/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Kay.Boilerplate.Infrastructure.Treasure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Kay.Boilerplate.Infrastructure.Treasure.dll": {}
+        }
+      },
       "Kay.Framework/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -8627,6 +8637,11 @@
       "path": "../Kay.Boilerplate.Domain/Kay.Boilerplate.Domain.csproj",
       "msbuildProject": "../Kay.Boilerplate.Domain/Kay.Boilerplate.Domain.csproj"
     },
+    "Kay.Boilerplate.Infrastructure.Treasure/1.0.0": {
+      "type": "project",
+      "path": "../Kay.Boilerplate.Infrastructure.Treasure/Kay.Boilerplate.Infrastructure.Treasure.csproj",
+      "msbuildProject": "../Kay.Boilerplate.Infrastructure.Treasure/Kay.Boilerplate.Infrastructure.Treasure.csproj"
+    },
     "Kay.Framework/1.0.0": {
       "type": "project",
       "path": "../Kay.Framework/Kay.Framework.csproj",
@@ -8686,6 +8701,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Kay.Boilerplate.Domain >= 1.0.0",
+      "Kay.Boilerplate.Infrastructure.Treasure >= 1.0.0",
       "Kay.Framework >= 1.0.0",
       "Kay.Framework.Application >= 1.0.0",
       "Kay.Framework.Authorization >= 1.0.0",
@@ -8727,6 +8743,9 @@
           "projectReferences": {
             "C:\\Users\\zhengweilin\\Desktop\\core\\Kay.Framework\\Kay.Boilerplate.Domain\\Kay.Boilerplate.Domain.csproj": {
               "projectPath": "C:\\Users\\zhengweilin\\Desktop\\core\\Kay.Framework\\Kay.Boilerplate.Domain\\Kay.Boilerplate.Domain.csproj"
+            },
+            "C:\\Users\\zhengweilin\\Desktop\\core\\Kay.Framework\\Kay.Boilerplate.Infrastructure.Treasure\\Kay.Boilerplate.Infrastructure.Treasure.csproj": {
+              "projectPath": "C:\\Users\\zhengweilin\\Desktop\\core\\Kay.Framework\\Kay.Boilerplate.Infrastructure.Treasure\\Kay.Boilerplate.Infrastructure.Treasure.csproj"
             },
             "C:\\Users\\zhengweilin\\Desktop\\core\\Kay.Framework\\Kay.Framework.Application\\Kay.Framework.Application.csproj": {
               "projectPath": "C:\\Users\\zhengweilin\\Desktop\\core\\Kay.Framework\\Kay.Framework.Application\\Kay.Framework.Application.csproj"

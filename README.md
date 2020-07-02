@@ -70,7 +70,7 @@
             //Mysql的注入
             //services.AddDbContext<WebBoilerplateMysqlDbContext>(opt =>
             //{
-            //    opt.UseMySql(Configuration.GetStringValue("nalong.mysql"));
+            //    opt.UseMySql(Configuration.GetStringValue("mysql"));
             //});
 
             #endregion Ef实现注入

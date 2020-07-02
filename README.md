@@ -1,5 +1,5 @@
 # AspNetCoreScaffolding
-本框架在.netCore和.netStandard的基础上，集成了多种中间件。中间件
+本框架在.netCore和.netStandard的基础上，集成了多种中间件
 
 <h1 align="center"> .NetCore集成框架，即开即用</h1>
 

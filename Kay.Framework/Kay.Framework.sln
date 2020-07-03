@@ -31,25 +31,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Runtime", "Runtime", "{030A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ObjectMapping", "ObjectMapping", "{5BDB16EA-C3F2-4363-AEF5-D4A5649FC078}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kay.Framework.ObjectMapping.Abstractions", "Kay.Framework.ObjectMapping.Abstractions\Kay.Framework.ObjectMapping.Abstractions.csproj", "{534D19BC-F581-4A6C-B7C3-66A87EDB532C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kay.Framework.ObjectMapping.Abstractions", "Kay.Framework.ObjectMapping.Abstractions\Kay.Framework.ObjectMapping.Abstractions.csproj", "{534D19BC-F581-4A6C-B7C3-66A87EDB532C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kay.Framework.ObjectMapping.TinyMapper", "Kay.Framework.ObjectMapping.TinyMapper\Kay.Framework.ObjectMapping.TinyMapper.csproj", "{1B905C34-5DA2-4B23-8A40-310122C436C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kay.Framework.ObjectMapping.TinyMapper", "Kay.Framework.ObjectMapping.TinyMapper\Kay.Framework.ObjectMapping.TinyMapper.csproj", "{1B905C34-5DA2-4B23-8A40-310122C436C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kay.Framework.ObjectMapping.TinyMapper.Tests", "Kay.Framework.ObjectMapping.TinyMapper.Tests\Kay.Framework.ObjectMapping.TinyMapper.Tests.csproj", "{4B223F89-29A6-4313-8916-D6D72AF78DA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kay.Framework.ObjectMapping.TinyMapper.Tests", "Kay.Framework.ObjectMapping.TinyMapper.Tests\Kay.Framework.ObjectMapping.TinyMapper.Tests.csproj", "{4B223F89-29A6-4313-8916-D6D72AF78DA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{B1006FA6-89FD-4B73-A84E-7EDA3DDD86D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{B1006FA6-89FD-4B73-A84E-7EDA3DDD86D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kay.Framework.Authorization", "Kay.Framework.Authorization\Kay.Framework.Authorization.csproj", "{A4F9D7E0-09BE-40B2-A17B-BBC788CD8077}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kay.Framework.Authorization", "Kay.Framework.Authorization\Kay.Framework.Authorization.csproj", "{A4F9D7E0-09BE-40B2-A17B-BBC788CD8077}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kay.Framework.AspNetCore", "Kay.Framework.AspNetCore\Kay.Framework.AspNetCore.csproj", "{A95B3C4D-06B3-4CD3-B64A-445997BF2C6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kay.Framework.AspNetCore", "Kay.Framework.AspNetCore\Kay.Framework.AspNetCore.csproj", "{A95B3C4D-06B3-4CD3-B64A-445997BF2C6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kay.Framework.AspNetCore.Mvc", "Kay.Framework.AspNetCore.Mvc\Kay.Framework.AspNetCore.Mvc.csproj", "{742339C9-3A4C-436D-905A-C38929A1C3DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kay.Framework.AspNetCore.Mvc", "Kay.Framework.AspNetCore.Mvc\Kay.Framework.AspNetCore.Mvc.csproj", "{742339C9-3A4C-436D-905A-C38929A1C3DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kay.Framework.EntityFrameworkCore.MySQL", "Kay.Framework.EntityFrameworkCore.MySQL\Kay.Framework.EntityFrameworkCore.MySQL.csproj", "{38277604-A4F8-45DE-9F2B-76167FACCDBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kay.Framework.EntityFrameworkCore.MySQL", "Kay.Framework.EntityFrameworkCore.MySQL\Kay.Framework.EntityFrameworkCore.MySQL.csproj", "{38277604-A4F8-45DE-9F2B-76167FACCDBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kay.Framework.EntityFrameworkCore.SqlServer", "Kay.Framework.EntityFrameworkCore.SqlServer\Kay.Framework.EntityFrameworkCore.SqlServer.csproj", "{AEC089DA-FE11-43C4-8A50-49432D01C077}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kay.Framework.EntityFrameworkCore.SqlServer", "Kay.Framework.EntityFrameworkCore.SqlServer\Kay.Framework.EntityFrameworkCore.SqlServer.csproj", "{AEC089DA-FE11-43C4-8A50-49432D01C077}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kay.Framework.EntityFrameworkCore.Oracle", "Kay.Framework.EntityFrameworkCore.Oracle\Kay.Framework.EntityFrameworkCore.Oracle.csproj", "{3A0B9778-307C-4722-9A2A-3D9783EB0D10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kay.Framework.EntityFrameworkCore.Oracle", "Kay.Framework.EntityFrameworkCore.Oracle\Kay.Framework.EntityFrameworkCore.Oracle.csproj", "{3A0B9778-307C-4722-9A2A-3D9783EB0D10}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{9FCF77FC-416F-4659-BF7B-94E0E591D146}"
 EndProject
@@ -57,23 +57,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{003842
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A5A6ED46-1DFF-4A0F-A7AB-CC40A40DF701}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kay.Boilerplate.Application.Service.Http", "Kay.Boilerplate.Application.Service.Http\Kay.Boilerplate.Application.Service.Http.csproj", "{0850C82F-64F2-4A77-AD26-E6211BDA27EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kay.Boilerplate.Application.Service.Http", "Kay.Boilerplate.Application.Service.Http\Kay.Boilerplate.Application.Service.Http.csproj", "{0850C82F-64F2-4A77-AD26-E6211BDA27EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kay.Boilerplate.Infrastructure.BoundedContext.Ef", "Kay.Boilerplate.Infrastructure.BoundedContext.Ef\Kay.Boilerplate.Infrastructure.BoundedContext.Ef.csproj", "{F8E7220F-7CB9-445A-A0BC-41C9F688E454}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kay.Boilerplate.Infrastructure.BoundedContext.Ef", "Kay.Boilerplate.Infrastructure.BoundedContext.Ef\Kay.Boilerplate.Infrastructure.BoundedContext.Ef.csproj", "{F8E7220F-7CB9-445A-A0BC-41C9F688E454}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kay.Boilerplate.Domain", "Kay.Boilerplate.Domain\Kay.Boilerplate.Domain.csproj", "{C09BB40B-BC74-47DB-A461-C10FCA20513E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kay.Boilerplate.Domain", "Kay.Boilerplate.Domain\Kay.Boilerplate.Domain.csproj", "{C09BB40B-BC74-47DB-A461-C10FCA20513E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kay.Boilerplate.ApplicationService", "Kay.Boilerplate.ApplicationService\Kay.Boilerplate.ApplicationService.csproj", "{20C5957D-B992-4132-B39E-EA99331680A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kay.Boilerplate.ApplicationService", "Kay.Boilerplate.ApplicationService\Kay.Boilerplate.ApplicationService.csproj", "{20C5957D-B992-4132-B39E-EA99331680A5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Caching", "Caching", "{391A39A8-A36B-4C67-8F5B-5C1AD2198EFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kay.Framework.Redis", "Kay.Framework.Redis\Kay.Framework.Redis.csproj", "{A86A478A-717A-4C69-B5E1-9DF58CC55723}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kay.Framework.Redis", "Kay.Framework.Redis\Kay.Framework.Redis.csproj", "{A86A478A-717A-4C69-B5E1-9DF58CC55723}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Swagger", "Swagger", "{DB7640D7-7F96-4735-B173-6652CACC053F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kay.Framework.Swagger", "Kay.Framework.Swagger\Kay.Framework.Swagger.csproj", "{1035E0EC-7DC5-4E66-9B4C-C426046FED5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kay.Framework.Swagger", "Kay.Framework.Swagger\Kay.Framework.Swagger.csproj", "{1035E0EC-7DC5-4E66-9B4C-C426046FED5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kay.Boilerplate.Infrastructure.Treasure", "Kay.Boilerplate.Infrastructure.Treasure\Kay.Boilerplate.Infrastructure.Treasure.csproj", "{B6B5A06E-D68F-4F2D-91D9-FAF247F74995}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kay.Boilerplate.Infrastructure.Treasure", "Kay.Boilerplate.Infrastructure.Treasure\Kay.Boilerplate.Infrastructure.Treasure.csproj", "{B6B5A06E-D68F-4F2D-91D9-FAF247F74995}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Job", "Job", "{85ACE936-C870-42F5-9716-715C6DB1B773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kay.Framework.Job", "Kay.Framework.Job\Kay.Framework.Job.csproj", "{3E03AAC6-61A7-4534-9104-4A439679FDD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -173,6 +177,10 @@ Global
 		{B6B5A06E-D68F-4F2D-91D9-FAF247F74995}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6B5A06E-D68F-4F2D-91D9-FAF247F74995}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6B5A06E-D68F-4F2D-91D9-FAF247F74995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E03AAC6-61A7-4534-9104-4A439679FDD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E03AAC6-61A7-4534-9104-4A439679FDD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E03AAC6-61A7-4534-9104-4A439679FDD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E03AAC6-61A7-4534-9104-4A439679FDD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -210,6 +218,8 @@ Global
 		{DB7640D7-7F96-4735-B173-6652CACC053F} = {D13FEECE-930B-4858-A01E-7BD1508EF915}
 		{1035E0EC-7DC5-4E66-9B4C-C426046FED5E} = {DB7640D7-7F96-4735-B173-6652CACC053F}
 		{B6B5A06E-D68F-4F2D-91D9-FAF247F74995} = {A5A6ED46-1DFF-4A0F-A7AB-CC40A40DF701}
+		{85ACE936-C870-42F5-9716-715C6DB1B773} = {D13FEECE-930B-4858-A01E-7BD1508EF915}
+		{3E03AAC6-61A7-4534-9104-4A439679FDD4} = {85ACE936-C870-42F5-9716-715C6DB1B773}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {49EF540E-B77C-4F82-BC5C-758362D48BB7}

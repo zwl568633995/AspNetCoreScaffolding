@@ -27,6 +27,7 @@ using NLog.Extensions.Logging;
 using Kay.Framework.Redis;
 using Kay.Boilerplate.Application.Service.Http.Filter;
 using Kay.Framework.Swagger;
+using Kay.Boilerplate.Application.Service.Http.Job;
 
 namespace Kay.Boilerplate.Application.Service.Http
 {
@@ -97,6 +98,10 @@ namespace Kay.Boilerplate.Application.Service.Http
 
             #region Swagger注入
             services.AddSwaggerCustom(Configuration);
+            #endregion
+
+            #region 定时任务注入
+            services.AddHostedService<TestJobTrigger>();
             #endregion
         }
 

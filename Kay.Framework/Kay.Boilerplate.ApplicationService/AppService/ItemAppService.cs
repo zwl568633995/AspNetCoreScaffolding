@@ -17,19 +17,22 @@ namespace Kay.Boilerplate.ApplicationService.AppService
         private readonly IRepository<TbItemImageEntity, long> _itemImageRepository;
         private readonly IRepository<TbItemShopRelatedEntity, long> _itemShopRelatedRepository;
         private readonly IRepository<TbShopEntity, long> _shopRepository;
+        private readonly IRepository<TbItemSkuEntity, long> _itemSkuRepository;
 
         public ItemAppService(
            IServiceProvider serviceProvider,
            IRepository<TbItemEntity, long> itemRepository,
            IRepository<TbItemImageEntity, long> itemImageRepository,
            IRepository<TbItemShopRelatedEntity, long> itemShopRelatedRepository,
-           IRepository<TbShopEntity, long> shopRepository)
+           IRepository<TbShopEntity, long> shopRepository,
+           IRepository<TbItemSkuEntity, long> itemSkuRepository)
            : base(serviceProvider)
         {
             _itemRepository = itemRepository;
             _itemImageRepository = itemImageRepository;
             _itemShopRelatedRepository = itemShopRelatedRepository;
             _shopRepository = shopRepository;
+            _itemSkuRepository = itemSkuRepository;
         }
 
         public ItemDetailResponse GetDetailById(long itemId)
@@ -49,7 +52,19 @@ namespace Kay.Boilerplate.ApplicationService.AppService
                 var shopResponse = Mapper.Map<ShopResponse>(tbShopEntity);
                 response.ShopResponses.Add(shopResponse);
             }
-          
+
+            response.SkuResponse = new List<ItemSkuResponse>();
+            var defaultSku = _itemSkuRepository.List(new ItemSkuFindQuerySpec(itemId, null))?.ToList();
+            Mapper.Bind<List<TbItemSkuEntity>, List<ItemSkuResponse>>();
+            response.SkuResponse = Mapper.Map<List<ItemSkuResponse>>(defaultSku);
+
+            ////赋值
+            response.OriPrice = defaultSku?.Where(x=>x.IsDefault)?.FirstOrDefault().OriPrice;
+            response.DisPrice = defaultSku?.Where(x => x.IsDefault)?.FirstOrDefault().DisPrice;
+            response.Cashback = defaultSku?.Where(x => x.IsDefault)?.FirstOrDefault().Cashback;
+            response.SaleCount = defaultSku?.Where(x => x.IsDefault)?.FirstOrDefault().SaleCount;
+            response.StockCount = defaultSku?.Where(x => x.IsDefault)?.FirstOrDefault().StockCount;
+
             return response;
         }
 
@@ -79,6 +94,12 @@ namespace Kay.Boilerplate.ApplicationService.AppService
                 result.Records.ForEach(x =>
                 {
                     x.Covers = _itemImageRepository.List(new ItemImageFindQuerySpec(x.Id))?.Select(y => y.ImageSource).ToList();
+                    var defaultSku = _itemSkuRepository.List(new ItemSkuFindQuerySpec(x.Id, true))?.FirstOrDefault();
+                    x.OriPrice = defaultSku.OriPrice;
+                    x.DisPrice = defaultSku.DisPrice;
+                    x.Cashback = defaultSku.Cashback;
+                    x.SaleCount = defaultSku.SaleCount;
+                    x.StockCount = defaultSku.StockCount;
                 });
             }
 

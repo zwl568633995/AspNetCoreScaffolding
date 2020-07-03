@@ -5453,6 +5453,19 @@
           "bin/placeholder/Kay.Framework.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
+      "Kay.Framework.Job/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc": "2.2.0"
+        },
+        "compile": {
+          "bin/placeholder/Kay.Framework.Job.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Kay.Framework.Job.dll": {}
+        }
+      },
       "Kay.Framework.ObjectMapping.Abstractions/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -14806,6 +14819,11 @@
       "path": "../Kay.Framework.EntityFrameworkCore.SqlServer/Kay.Framework.EntityFrameworkCore.SqlServer.csproj",
       "msbuildProject": "../Kay.Framework.EntityFrameworkCore.SqlServer/Kay.Framework.EntityFrameworkCore.SqlServer.csproj"
     },
+    "Kay.Framework.Job/1.0.0": {
+      "type": "project",
+      "path": "../Kay.Framework.Job/Kay.Framework.Job.csproj",
+      "msbuildProject": "../Kay.Framework.Job/Kay.Framework.Job.csproj"
+    },
     "Kay.Framework.ObjectMapping.Abstractions/1.0.0": {
       "type": "project",
       "path": "../Kay.Framework.ObjectMapping.Abstractions/Kay.Framework.ObjectMapping.Abstractions.csproj",
@@ -14841,6 +14859,7 @@
       "Kay.Framework.AspNetCore >= 1.0.0",
       "Kay.Framework.AspNetCore.Mvc >= 1.0.0",
       "Kay.Framework.Authorization >= 1.0.0",
+      "Kay.Framework.Job >= 1.0.0",
       "Kay.Framework.ObjectMapping.TinyMapper >= 1.0.0",
       "Kay.Framework.Redis >= 1.0.0",
       "Kay.Framework.Swagger >= 1.0.0",
@@ -14899,6 +14918,9 @@
             },
             "C:\\Users\\zhengweilin\\Desktop\\core\\Kay.Framework\\Kay.Framework.Authorization\\Kay.Framework.Authorization.csproj": {
               "projectPath": "C:\\Users\\zhengweilin\\Desktop\\core\\Kay.Framework\\Kay.Framework.Authorization\\Kay.Framework.Authorization.csproj"
+            },
+            "C:\\Users\\zhengweilin\\Desktop\\core\\Kay.Framework\\Kay.Framework.Job\\Kay.Framework.Job.csproj": {
+              "projectPath": "C:\\Users\\zhengweilin\\Desktop\\core\\Kay.Framework\\Kay.Framework.Job\\Kay.Framework.Job.csproj"
             },
             "C:\\Users\\zhengweilin\\Desktop\\core\\Kay.Framework\\Kay.Framework.ObjectMapping.TinyMapper\\Kay.Framework.ObjectMapping.TinyMapper.csproj": {
               "projectPath": "C:\\Users\\zhengweilin\\Desktop\\core\\Kay.Framework\\Kay.Framework.ObjectMapping.TinyMapper\\Kay.Framework.ObjectMapping.TinyMapper.csproj"

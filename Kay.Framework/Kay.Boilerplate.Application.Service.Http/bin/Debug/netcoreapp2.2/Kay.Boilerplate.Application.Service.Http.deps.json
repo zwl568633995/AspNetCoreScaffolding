@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "7e9f37aaeef8dc6778c4f415034f417dffd9d4d6"
+    "signature": "19093a9e471239ab54ed2ce7b95e2dc047d866e8"
   },
   "compilationOptions": {
     "defines": [
@@ -31,6 +31,7 @@
           "Kay.Framework.AspNetCore": "1.0.0",
           "Kay.Framework.AspNetCore.Mvc": "1.0.0",
           "Kay.Framework.Authorization": "1.0.0",
+          "Kay.Framework.Job": "1.0.0",
           "Kay.Framework.ObjectMapping.TinyMapper": "1.0.0",
           "Kay.Framework.Redis": "1.0.0",
           "Kay.Framework.Swagger": "1.0.0",
@@ -38,6 +39,7 @@
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.4.10",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.3",
           "NLog.Web.AspNetCore": "4.8.4"
         },
@@ -309,6 +311,7 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
         }
       },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.4.10": {},
       "Microsoft.VisualStudio.Web.CodeGeneration/2.2.3": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "2.2.0",
@@ -1503,6 +1506,17 @@
         },
         "compile": {
           "Kay.Framework.EntityFrameworkCore.SqlServer.dll": {}
+        }
+      },
+      "Kay.Framework.Job/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc": "2.2.0"
+        },
+        "runtime": {
+          "Kay.Framework.Job.dll": {}
+        },
+        "compile": {
+          "Kay.Framework.Job.dll": {}
         }
       },
       "Kay.Framework.ObjectMapping.Abstractions/1.0.0": {
@@ -4627,6 +4641,13 @@
       "path": "microsoft.openapi/1.1.4",
       "hashPath": "microsoft.openapi.1.1.4.nupkg.sha512"
     },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.4.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V7H6e/ZkxYtBzFZxuj0N/ubyiwkGfZnS7Ha+W9mvqfrA8XLiEg8H5SzYh+kVeb45nvFMI1/8XA6Nuj09t/OE5Q==",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.4.10",
+      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.4.10.nupkg.sha512"
+    },
     "Microsoft.VisualStudio.Web.CodeGeneration/2.2.3": {
       "type": "package",
       "serviceable": true,
@@ -5148,6 +5169,11 @@
       "sha512": ""
     },
     "Kay.Framework.EntityFrameworkCore.SqlServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Kay.Framework.Job/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

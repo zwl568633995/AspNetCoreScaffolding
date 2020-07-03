@@ -53,3 +53,5 @@ C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Boilerplate.Application.Serv
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Boilerplate.Application.Service.Http\obj\Debug\netcoreapp2.2\Kay.Boilerplate.Application.Service.Http.pdb
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Boilerplate.Application.Service.Http\bin\Debug\netcoreapp2.2\Kay.Boilerplate.Infrastructure.Treasure.dll
 C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Boilerplate.Application.Service.Http\bin\Debug\netcoreapp2.2\Kay.Boilerplate.Infrastructure.Treasure.pdb
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Boilerplate.Application.Service.Http\bin\Debug\netcoreapp2.2\Kay.Framework.Job.dll
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Boilerplate.Application.Service.Http\bin\Debug\netcoreapp2.2\Kay.Framework.Job.pdb

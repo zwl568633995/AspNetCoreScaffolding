@@ -50,11 +50,7 @@ namespace Kay.Boilerplate.Infrastructure.BoundedContext.Ef.Migrations
 
                     b.Property<DateTime?>("AddTime");
 
-                    b.Property<decimal>("Cashback");
-
                     b.Property<long>("CityId");
-
-                    b.Property<decimal>("DisPrice");
 
                     b.Property<DateTime>("EndTime");
 
@@ -64,17 +60,11 @@ namespace Kay.Boilerplate.Infrastructure.BoundedContext.Ef.Migrations
 
                     b.Property<DateTime?>("ModTime");
 
-                    b.Property<decimal>("OriPrice");
-
-                    b.Property<int>("SaleCount");
-
                     b.Property<int>("SaleType");
 
                     b.Property<DateTime>("StartTime");
 
                     b.Property<int>("Status");
-
-                    b.Property<int>("StockCount");
 
                     b.HasKey("Id");
 
@@ -117,6 +107,39 @@ namespace Kay.Boilerplate.Infrastructure.BoundedContext.Ef.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("TbItemShopRelated");
+                });
+
+            modelBuilder.Entity("Kay.Boilerplate.Domain.Entities.TbItemSkuEntity", b =>
+                {
+                    b.Property<long>("Id");
+
+                    b.Property<DateTime?>("AddTime");
+
+                    b.Property<decimal>("Cashback");
+
+                    b.Property<decimal>("DisPrice");
+
+                    b.Property<bool>("IsDefault");
+
+                    b.Property<long>("ItemId");
+
+                    b.Property<DateTime?>("ModTime");
+
+                    b.Property<decimal>("OriPrice");
+
+                    b.Property<string>("Remark");
+
+                    b.Property<int>("SaleCount");
+
+                    b.Property<int>("Status");
+
+                    b.Property<int>("StockCount");
+
+                    b.Property<string>("title");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TbItemSku");
                 });
 
             modelBuilder.Entity("Kay.Boilerplate.Domain.Entities.TbShopEntity", b =>

@@ -18,5 +18,10 @@ namespace Kay.Boilerplate.ApplicationService.Dto.Response
         /// 店铺
         /// </summary>
         public List<ShopResponse> ShopResponses { get; set; }
+
+        /// <summary>
+        /// Sku选择
+        /// </summary>
+        public List<ItemSkuResponse> SkuResponse { get; set; }
     }
 }

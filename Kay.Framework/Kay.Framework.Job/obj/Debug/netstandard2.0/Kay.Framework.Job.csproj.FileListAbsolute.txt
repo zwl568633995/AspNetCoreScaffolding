@@ -1,0 +1,9 @@
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Job\bin\Debug\netstandard2.0\Kay.Framework.Job.deps.json
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Job\bin\Debug\netstandard2.0\Kay.Framework.Job.dll
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Job\bin\Debug\netstandard2.0\Kay.Framework.Job.pdb
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Job\obj\Debug\netstandard2.0\Kay.Framework.Job.csprojAssemblyReference.cache
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Job\obj\Debug\netstandard2.0\Kay.Framework.Job.csproj.CoreCompileInputs.cache
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Job\obj\Debug\netstandard2.0\Kay.Framework.Job.AssemblyInfoInputs.cache
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Job\obj\Debug\netstandard2.0\Kay.Framework.Job.AssemblyInfo.cs
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Job\obj\Debug\netstandard2.0\Kay.Framework.Job.dll
+C:\Users\zhengweilin\Desktop\core\Kay.Framework\Kay.Framework.Job\obj\Debug\netstandard2.0\Kay.Framework.Job.pdb

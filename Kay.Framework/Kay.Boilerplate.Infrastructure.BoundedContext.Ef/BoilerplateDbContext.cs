@@ -18,6 +18,8 @@ namespace Kay.Boilerplate.Infrastructure.BoundedContext.Ef
 
         public DbSet<TbShopEntity> TbShopEntities { get; set; }
 
+        public DbSet<TbItemSkuEntity> TbItemSkuEntities { get; set; }
+        
         public DbSet<TbItemShopRelatedEntity> TbItemShopRelatedEntities { get; set; }
 
         public BoilerplateDbContext(

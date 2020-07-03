@@ -19,17 +19,17 @@ namespace Kay.Boilerplate.ApplicationService.Dto.Response
         /// <summary>
         /// 原价
         /// </summary>
-        public decimal OriPrice { get; set; }
+        public decimal? OriPrice { get; set; }
 
         /// <summary>
         /// 现价
         /// </summary>
-        public decimal DisPrice { get; set; }
+        public decimal? DisPrice { get; set; }
 
         /// <summary>
         /// 返现
         /// </summary>
-        public decimal Cashback { get; set; }
+        public decimal? Cashback { get; set; }
 
         /// <summary>
         /// 销售状态
@@ -39,12 +39,12 @@ namespace Kay.Boilerplate.ApplicationService.Dto.Response
         /// <summary>
         /// 销售量
         /// </summary>
-        public int SaleCount { get; set; }
+        public int? SaleCount { get; set; }
 
         /// <summary>
         /// 库存量
         /// </summary>
-        public int StockCount { get; set; }
+        public int? StockCount { get; set; }
 
         /// <summary>
         /// 活动开始时间

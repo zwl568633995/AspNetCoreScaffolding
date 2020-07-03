@@ -28,6 +28,7 @@
     <ProjectReference Include="..\Kay.Framework.AspNetCore.Mvc\Kay.Framework.AspNetCore.Mvc.csproj" />
     <ProjectReference Include="..\Kay.Framework.AspNetCore\Kay.Framework.AspNetCore.csproj" />
     <ProjectReference Include="..\Kay.Framework.Authorization\Kay.Framework.Authorization.csproj" />
+    <ProjectReference Include="..\Kay.Framework.Job\Kay.Framework.Job.csproj" />
     <ProjectReference Include="..\Kay.Framework.ObjectMapping.TinyMapper\Kay.Framework.ObjectMapping.TinyMapper.csproj" />
     <ProjectReference Include="..\Kay.Framework.Redis\Kay.Framework.Redis.csproj" />
     <ProjectReference Include="..\Kay.Framework.Swagger\Kay.Framework.Swagger.csproj" />

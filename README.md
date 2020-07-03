@@ -20,6 +20,7 @@
 * 日志管理，NLog
 * 集成Apollo，分布式配置
 * 集成消息队列，Event消息
+* Timer定时任务基础组件
 * Docker一键部署，发布更加方便跨平台
 * 适用范围：可以开发OA、ERP、BPM、CRM、WMS、TMS、MIS、BI、电商平台后台、物流管理系统、快递管理系统、教务管理系统等各类管理软件。
 
@@ -92,6 +93,10 @@
             #region Swagger注入
             services.AddSwaggerCustom(Configuration);
             #endregion
+
+            #region 定时任务注入
+            services.AddHostedService<TestJobTrigger>();
+            #endregion
 ```
 以上是Core核心的注入功能，任何中间件和组件均可直接注入使用
 
@@ -100,6 +105,9 @@
 
 # 2020-06-22更新  
 1、V1.0版本提交 至此系统可以使用了
+
+# 2020-07-03更新  
+1、新增定时任务，未用开源的Quartz和Hangfire,写了基础的采用System.Threading.Timer任务组件
 
 ## 安全&缺陷
 如果你发现了一个安全漏洞或缺陷，请发送邮件到 568633995@qq.com,所有的安全漏洞都将及时得到解决。

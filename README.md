@@ -23,7 +23,7 @@
 * Timer定时任务基础组件
 * Docker一键部署，发布更加方便跨平台
 * 适用范围：可以开发OA、ERP、BPM、CRM、WMS、TMS、MIS、BI、电商平台后台、物流管理系统、快递管理系统、教务管理系统等各类管理软件。
-
+![image](https://github.com/zwl568633995/AspNetCoreScaffolding/blob/master/images/%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B.png)
 
 ## 开发者信息
 * 系统名称：.NetCore集成框架  
